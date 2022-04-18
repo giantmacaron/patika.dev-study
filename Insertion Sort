@@ -1,0 +1,21 @@
+Bu file da Patika.dev Veri Yapıları ve Algorithmalar dersinin Insertion Sort projesini yapacağız.
+
+Insertion sort yapılacak array => [22,27,16,2,18,6]
+
+1. Insertion Sort Algorithm
+1 [2, 27, 16 , 22 , 18, 6]
+2 [2, 6, 16, 22, 18, 27]
+3 [2, 6, 16, 22, 18, 27]
+4 [2, 6, 16, 18, 22, 27]
+5 Algorithma Tamamlandı
+
+2. Big-O Gösterimi
+Insertion sort'un Big-O su O(nˆ2) olarak gösterilir. Array de 6 eleman olduğu için O(6ˆ2) = 36 olarak gösterilebilir.
+
+3. Time Complexity Analysis
+Array'imiz 6 elemanlıdır.
+Best Case: Array in istenen sırada olması durumudur. Big_O olarak O(n) gösterimi vardır. => O(6) = 6
+Worst Case: Arry'in en kötü sırada olması durumu burada yer değişecek elemanların listenin en sonunda olduğunu assume edebiliriz. Bu durumda Big-O yu O(nˆ2) olarak asuume edebiliriz => O(6)=36
+Average Case: Average case in Big-O notasyonu Worst Case ile aynı notasyona sahip olup O(nˆ2) olarak gösterilir. => O(6) = 36
+
+4. Dizi sıralandıktan sonra 18 sayısı array de olması gereken yerde olan 3. sıradadır. Buda onun Best case durumunda olduğunun göstergesidir. 
