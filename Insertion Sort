@@ -19,3 +19,11 @@ Worst Case: Arry'in en kötü sırada olması durumu burada yer değişecek elem
 Average Case: Average case in Big-O notasyonu Worst Case ile aynı notasyona sahip olup O(nˆ2) olarak gösterilir. => O(6) = 36
 
 4. Dizi sıralandıktan sonra 18 sayısı array de olması gereken yerde olan 3. sıradadır. Buda onun Best case durumunda olduğunun göstergesidir. 
+
+
+5. [7,3,5,8,2,9,4,15,6] serisiniz Imsertion Sort a göre ilk 4 adımı.
+
+1 [2,3,5,8,7,9,4,15,6]
+2 [2,3,5,8,7,9,4,15,6]
+3 [2,3,4,8,7,9,5,15,6]
+4 [2,3,4,5,7,9,8,15,6]
