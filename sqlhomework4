@@ -1,0 +1,15 @@
+# SQL Homework 4
+
+1- select distinct replacement_cost from film
+
+2- select distinct count(replacement_cost) from film
+==> Output : 1000
+
+3- select distinct count(title) from film where title like 'T%' and rating = 'G'
+==> Output : 9
+
+4- select distinct count(country) from country where length(country) = 5
+==> Output : 13
+
+5- select distinct count(city) from city where lower(city) like '%r'
+==> Output : 33
