@@ -1,0 +1,28 @@
+# Bu bölüm ilk soruda verilen listeyi flat yapmak için yazılmış bir koddur.
+
+inlist = [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+
+flatlist = list()
+
+def flat(x):
+    for i in x:
+        if type(i) == list:
+            flat(i)
+        else:
+            yeni_liste.append(i)
+
+print(flat(eski_liste))
+
+# Bu bölüm ikinci soruda verilen listeyi reverse etmek için yazılmış bir koddur.
+
+seclistin = [[1, 2], [3, 4], [5, 6, 7]]
+
+def revlist(in_list):
+    
+    for index in range(len(in_list)):
+        if type(in_list[index]) == type([]):
+            in_list[index] = in_list[index][::-1]
+
+    return in_list[::-1]
+    
+print(revlist(seclistin)
